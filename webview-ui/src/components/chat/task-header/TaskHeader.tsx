@@ -106,9 +106,10 @@ const TaskHeader: React.FC<TaskHeaderProps> = ({
 						"hover:bg-[var(--vscode-toolbar-hoverBackground)] border-1": !isTaskExpanded, // Hover effects only when collapsed
 					},
 				)}
-				style={{
-					borderColor: environmentBorderColor,
-				}}>
+				// style={{
+				// 	borderColor: environmentBorderColor,
+				// }}
+				>
 				{/* Task Title */}
 				<div className="flex justify-between items-center cursor-pointer" onClick={toggleTaskExpanded}>
 					<div className="flex justify-between items-center">
